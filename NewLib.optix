@@ -1,0 +1,25 @@
+Project:
+ Name: NewLib
+ GUID: d09e8a6c246d7d2bf35994d1af93f7e7
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+  3:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 4.2
+  5:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 2.0
+ Nodes:
+ - File: Nodes/NewLib.yaml
